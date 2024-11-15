@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AB25672CE6064A0047D369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB25662CE6064A0047D369 /* AppDelegate.swift */; };
+		18AB25692CE6064A0047D369 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB25682CE6064A0047D369 /* SceneDelegate.swift */; };
+		18AB256B2CE6064A0047D369 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB256A2CE6064A0047D369 /* WeatherViewController.swift */; };
+		18AB256E2CE6064A0047D369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AB256C2CE6064A0047D369 /* Main.storyboard */; };
+		18AB25702CE6064D0047D369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AB256F2CE6064D0047D369 /* Assets.xcassets */; };
+		18AB25732CE6064D0047D369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AB25712CE6064D0047D369 /* LaunchScreen.storyboard */; };
+		18AB25802CE6CFDB0047D369 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB257F2CE6CFDB0047D369 /* WeatherService.swift */; };
+		18AB25822CE6D03F0047D369 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB25812CE6D03F0047D369 /* WeatherViewModel.swift */; };
+		18AB25972CE6D2B70047D369 /* WeatherViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB25952CE6D2B60047D369 /* WeatherViewModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AB25902CE6D2310047D369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AB255B2CE6064A0047D369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AB25622CE6064A0047D369;
+			remoteInfo = LloydsTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18AB25632CE6064A0047D369 /* LloydsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LloydsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AB25662CE6064A0047D369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18AB25682CE6064A0047D369 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18AB256A2CE6064A0047D369 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		18AB256D2CE6064A0047D369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AB256F2CE6064D0047D369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18AB25722CE6064D0047D369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18AB25742CE6064D0047D369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AB257F2CE6CFDB0047D369 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		18AB25812CE6D03F0047D369 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		18AB258C2CE6D2310047D369 /* LloydsTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LloydsTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AB25952CE6D2B60047D369 /* WeatherViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AB25602CE6064A0047D369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AB25892CE6D2310047D369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AB255A2CE6064A0047D369 = {
+			isa = PBXGroup;
+			children = (
+				18AB25652CE6064A0047D369 /* LloydsTask */,
+				18AB258D2CE6D2310047D369 /* LloydsTaskTests */,
+				18AB25642CE6064A0047D369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18AB25642CE6064A0047D369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AB25632CE6064A0047D369 /* LloydsTask.app */,
+				18AB258C2CE6D2310047D369 /* LloydsTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AB25652CE6064A0047D369 /* LloydsTask */ = {
+			isa = PBXGroup;
+			children = (
+				18AB25662CE6064A0047D369 /* AppDelegate.swift */,
+				18AB25682CE6064A0047D369 /* SceneDelegate.swift */,
+				18AB257A2CE606B80047D369 /* Model */,
+				18AB257B2CE606C70047D369 /* View */,
+				18AB257C2CE606D00047D369 /* ViewModel */,
+				18AB257D2CE606F30047D369 /* Networking */,
+				18AB257E2CE6071B0047D369 /* Utilities */,
+				18AB256C2CE6064A0047D369 /* Main.storyboard */,
+				18AB256F2CE6064D0047D369 /* Assets.xcassets */,
+				18AB25712CE6064D0047D369 /* LaunchScreen.storyboard */,
+				18AB25742CE6064D0047D369 /* Info.plist */,
+			);
+			path = LloydsTask;
+			sourceTree = "<group>";
+		};
+		18AB257A2CE606B80047D369 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18AB257B2CE606C70047D369 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18AB256A2CE6064A0047D369 /* WeatherViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18AB257C2CE606D00047D369 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18AB25812CE6D03F0047D369 /* WeatherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18AB257D2CE606F30047D369 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18AB257F2CE6CFDB0047D369 /* WeatherService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		18AB257E2CE6071B0047D369 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		18AB25832CE6D1C70047D369 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18AB25952CE6D2B60047D369 /* WeatherViewModelTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		18AB258D2CE6D2310047D369 /* LloydsTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				18AB25832CE6D1C70047D369 /* Tests */,
+			);
+			path = LloydsTaskTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AB25622CE6064A0047D369 /* LloydsTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AB25772CE6064D0047D369 /* Build configuration list for PBXNativeTarget "LloydsTask" */;
+			buildPhases = (
+				18AB255F2CE6064A0047D369 /* Sources */,
+				18AB25602CE6064A0047D369 /* Frameworks */,
+				18AB25612CE6064A0047D369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LloydsTask;
+			productName = LloydsTask;
+			productReference = 18AB25632CE6064A0047D369 /* LloydsTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18AB258B2CE6D2310047D369 /* LloydsTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AB25922CE6D2310047D369 /* Build configuration list for PBXNativeTarget "LloydsTaskTests" */;
+			buildPhases = (
+				18AB25882CE6D2310047D369 /* Sources */,
+				18AB25892CE6D2310047D369 /* Frameworks */,
+				18AB258A2CE6D2310047D369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AB25912CE6D2310047D369 /* PBXTargetDependency */,
+			);
+			name = LloydsTaskTests;
+			productName = LloydsTaskTests;
+			productReference = 18AB258C2CE6D2310047D369 /* LloydsTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AB255B2CE6064A0047D369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					18AB25622CE6064A0047D369 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					18AB258B2CE6D2310047D369 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 18AB25622CE6064A0047D369;
+					};
+				};
+			};
+			buildConfigurationList = 18AB255E2CE6064A0047D369 /* Build configuration list for PBXProject "LloydsTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AB255A2CE6064A0047D369;
+			productRefGroup = 18AB25642CE6064A0047D369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AB25622CE6064A0047D369 /* LloydsTask */,
+				18AB258B2CE6D2310047D369 /* LloydsTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AB25612CE6064A0047D369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AB25732CE6064D0047D369 /* LaunchScreen.storyboard in Resources */,
+				18AB25702CE6064D0047D369 /* Assets.xcassets in Resources */,
+				18AB256E2CE6064A0047D369 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AB258A2CE6D2310047D369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AB255F2CE6064A0047D369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AB25822CE6D03F0047D369 /* WeatherViewModel.swift in Sources */,
+				18AB25802CE6CFDB0047D369 /* WeatherService.swift in Sources */,
+				18AB256B2CE6064A0047D369 /* WeatherViewController.swift in Sources */,
+				18AB25672CE6064A0047D369 /* AppDelegate.swift in Sources */,
+				18AB25692CE6064A0047D369 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AB25882CE6D2310047D369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AB25972CE6D2B70047D369 /* WeatherViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18AB25912CE6D2310047D369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AB25622CE6064A0047D369 /* LloydsTask */;
+			targetProxy = 18AB25902CE6D2310047D369 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18AB256C2CE6064A0047D369 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AB256D2CE6064A0047D369 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AB25712CE6064D0047D369 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AB25722CE6064D0047D369 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AB25752CE6064D0047D369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18AB25762CE6064D0047D369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AB25782CE6064D0047D369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LloydsTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnreddy.iOS.LloydsTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18AB25792CE6064D0047D369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LloydsTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnreddy.iOS.LloydsTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18AB25932CE6D2310047D369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnreddy.iOS.LloydsTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LloydsTask.app/LloydsTask";
+			};
+			name = Debug;
+		};
+		18AB25942CE6D2310047D369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnreddy.iOS.LloydsTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LloydsTask.app/LloydsTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AB255E2CE6064A0047D369 /* Build configuration list for PBXProject "LloydsTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AB25752CE6064D0047D369 /* Debug */,
+				18AB25762CE6064D0047D369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AB25772CE6064D0047D369 /* Build configuration list for PBXNativeTarget "LloydsTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AB25782CE6064D0047D369 /* Debug */,
+				18AB25792CE6064D0047D369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AB25922CE6D2310047D369 /* Build configuration list for PBXNativeTarget "LloydsTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AB25932CE6D2310047D369 /* Debug */,
+				18AB25942CE6D2310047D369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AB255B2CE6064A0047D369 /* Project object */;
+}
